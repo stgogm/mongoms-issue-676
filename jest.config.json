@@ -1,0 +1,13 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "globalTeardown": "../test/global/teardown.ts",
+  "collectCoverageFrom": ["**/*.(t|j)s"],
+  "globalSetup": "../test/global/setup.ts",
+  "coverageDirectory": "../coverage",
+  "testRegex": ".*\\.spec\\.ts$",
+  "testEnvironment": "node",
+  "rootDir": "test",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  }
+}
